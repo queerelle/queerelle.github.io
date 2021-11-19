@@ -2,6 +2,6 @@ theme: jekyll-theme-midnight
 
 nav-pages:
 - title: Home
-  url: index.md
+  name: index
 - title: About
-  url: about.md
+  name: about
