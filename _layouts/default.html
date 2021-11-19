@@ -22,7 +22,7 @@
         <nav>
           <ul>
             {% for item in site.nav-pages %}
-              <li><a href="{{ item.name }}">{{ item.title }}</a></li>
+              <li><a href="{{ site.baseurl }}/{{ item.name }}">{{ item.title }}</a></li>
             {% endfor %}
           </ul>
           <!--
