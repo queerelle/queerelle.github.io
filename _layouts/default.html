@@ -20,6 +20,11 @@
   <body>
       <div id="header">
         <nav>
+          <ul>
+            {% for item in site.nav-pages %}
+              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
           <!--
           <ul>
             <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
